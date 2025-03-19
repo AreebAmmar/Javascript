@@ -1,5 +1,5 @@
 const readline = require("readline-sync");
-// let n=readline.question("Enter Number");
+let n=readline.question("Enter Number");
 
 
 
@@ -28,3 +28,12 @@ const readline = require("readline-sync");
 // for (let b of "Areeb"){
 //     console.log(b)
 // }
+
+
+
+
+let sum=0
+for(let a in marks){
+    sum=sum+marks[a]
+}
+console.log(sum)

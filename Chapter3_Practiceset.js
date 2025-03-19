@@ -1,10 +1,10 @@
 const prompt = require("prompt-sync")();
 
-let a = function(a,b,c,d){
-   return(a,b,c,d/2) 
-}
+// let a = function(a,b,c,d){
+//    return(a,b,c,d/2) 
+// }
 // console.log(mean(1,2,3,4));
-console.log(a(1,2,3,4)/4);
+// console.log(a(1,2,3,4)/4);
 
 // let num=4
 // let i
